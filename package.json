@@ -1,0 +1,39 @@
+{
+  "name": "todyapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Todyapp is Todo list web-app (just mobile mode)",
+  "homepage": "https://github.com/abstractorDev/Todyapp#readme",
+  "bugs": {
+    "url": "https://github.com/abstractorDev/Todyapp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abstractorDev/Todyapp.git"
+  },
+  "license": "ISC",
+  "author": "abstractorDev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.0.9",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.9",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
